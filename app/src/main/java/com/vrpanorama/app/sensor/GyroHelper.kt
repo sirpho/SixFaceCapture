@@ -8,9 +8,9 @@ import android.hardware.SensorManager
 import kotlin.math.*
 
 /**
- * 陀螺仪角度计算工具�?
- * 用于实时判断手机朝向，辅�?面全景拍�?
- * 使用旋转矢量传感器（ROTATION_VECTOR）获取精确姿�?
+ * 陀螺仪/旋转矢量传感器工具类
+ * 功能：实时计算手机姿态角度，辅助六面全景拍摄方向引导
+ * 优先使用旋转矢量传感器，获取更精准的姿态数据
  */
 class GyroHelper(private val context: Context) : SensorEventListener {
 
@@ -18,125 +18,149 @@ class GyroHelper(private val context: Context) : SensorEventListener {
         context.getSystemService(Context.SENSOR_SERVICE) as SensorManager
     private var rotationVectorSensor: Sensor? = null
 
-    // 当前姿态角度（弧度： yaw偏航, pitch俯仰, roll横滚
-    var yaw: Float = 0f // 水平旋转角（绕Z轴）
-    var pitch: Float = 0f // 前后倾斜角（绕X轴）
-    var roll: Float = 0f // 左右倾斜角（绕Y轴）
+    // 当前姿态角度（角度制）
+    var yaw: Float = 0f    // 偏航角：水平旋转（绕Z轴）
+    var pitch: Float = 0f  // 俯仰角：前后倾斜（绕X轴）
+    var roll: Float = 0f   // 横滚角：左右倾斜（绕Y轴）
 
-    // 旋转矩阵：x4：
+    // 旋转矩阵
     private val rotationMatrix = FloatArray(16)
 
-    // 方向角数�?[azimuth, pitch, roll]
+    // 方向角数组 [方位角, 俯仰角, 横滚角]
     private val orientationAngles = FloatArray(3)
 
-    // 监听器回调
+    // 方向变化监听器
     private var listener: OnDirectionChangedListener? = null
 
-    /** 方向变化监听�?*/
+    /**
+     * 方向变化监听接口
+     * 用于实时回调当前朝向与是否对准目标方向
+     */
     interface OnDirectionChangedListener {
         fun onDirectionChanged(direction: SixDirection, isAligned: Boolean)
     }
 
-    /** 六个拍摄方向枚举 */
+    /**
+     * 全景拍摄六个方向枚举
+     * label：显示文字
+     * order：拍摄顺序 0~5
+     */
     enum class SixDirection(val label: String, val order: Int) {
-        FRONT("\u524d", 0), // 前
-        RIGHT("\u53f3", 1), // 右
-        BACK("\u540e", 2), // 后
-        LEFT("\u5de6", 3), // 左
-        UP("\u4e0a", 4),  // 上
-        DOWN("\u4e0b", 5);  // 下
-
+        FRONT("前", 0),
+        RIGHT("右", 1),
+        BACK("后", 2),
+        LEFT("左", 3),
+        UP("上", 4),
+        DOWN("下", 5);
 
         companion object {
+            // 根据拍摄顺序获取对应方向
             fun fromOrder(order: Int): SixDirection {
                 return values().find { it.order == order } ?: FRONT
             }
         }
     }
 
-    /** 注册传感器监听器 */
+    /**
+     * 启动传感器监听
+     * 优先注册旋转矢量传感器，无则降级使用加速度+磁场传感器
+     */
     fun start(listener: OnDirectionChangedListener) {
         this.listener = listener
         rotationVectorSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR)
+
         if (rotationVectorSensor != null) {
-            // 以最快采样率注册，确保实时�?
+            // 使用最高采样率，保证角度实时性
             sensorManager.registerListener(
                 this,
                 rotationVectorSensor,
                 SensorManager.SENSOR_DELAY_FASTEST
             )
         } else {
-            // 降级：使用加速度�?磁场传感�?
+            // 降级方案：加速度传感器 + 磁场传感器
             val accelSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
             val magSensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)
-            if (accelSensor != null) {
-                sensorManager.registerListener(this, accelSensor, SensorManager.SENSOR_DELAY_GAME)
+
+            accelSensor?.let {
+                sensorManager.registerListener(this, it, SensorManager.SENSOR_DELAY_GAME)
             }
-            if (magSensor != null) {
-                sensorManager.registerListener(this, magSensor, SensorManager.SENSOR_DELAY_GAME)
+            magSensor?.let {
+                sensorManager.registerListener(this, it, SensorManager.SENSOR_DELAY_GAME)
             }
         }
     }
 
+    /**
+     * 停止传感器监听（必须在页面销毁时调用，防止耗电）
+     */
+    fun stop() {
+        sensorManager.unregisterListener(this)
+    }
+
     override fun onSensorChanged(event: SensorEvent?) {
         if (event == null) return
+
         when (event.sensor.type) {
             Sensor.TYPE_ROTATION_VECTOR -> {
-                // 旋转矢量传感�? 转为旋转矩阵后提取欧拉角
+                // 从旋转矢量获取旋转矩阵
                 SensorManager.getRotationMatrixFromVector(rotationMatrix, event.values)
+                // 从矩阵计算设备方向
                 SensorManager.getOrientation(rotationMatrix, orientationAngles)
-                // azimuth: 绕Z轴角�?[-PI, PI], 转为 0~360 �?
+
+                // 转换为角度制，方便判断与调试
                 yaw = Math.toDegrees(orientationAngles[0].toDouble()).toFloat()
-                if (yaw < 0) yaw += 360f
-                // pitch: 绕X轴角�?
+                if (yaw < 0) yaw += 360f  // 转为 0~360°
+
                 pitch = Math.toDegrees(orientationAngles[1].toDouble()).toFloat()
-                // roll: 绕Y轴角�?
                 roll = Math.toDegrees(orientationAngles[2].toDouble()).toFloat()
+
+                // 计算当前朝向
                 checkDirection()
             }
 
+            // 降级方案（简化实现）
             Sensor.TYPE_ACCELEROMETER,
             Sensor.TYPE_MAGNETIC_FIELD -> {
-                // 降级方案: 使用加速度+磁场融合（简化实现）
             }
         }
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {}
 
-    /** 根据当前角度判断手机朝向 */
+    /**
+     * 检查当前手机朝向，并回调给UI
+     */
     private fun checkDirection() {
         val (direction, isAligned) = getCurrentDirection()
         listener?.onDirectionChanged(direction, isAligned)
     }
 
     /**
-     * 核心算法: 根据 yaw/pitch/roll 判断朝向
-     * 6个方向的目标角度定义:
-     * FRONT: yaw=0, pitch=0, roll=0 (手机竖屏正对前方)
-     * RIGHT: yaw=90, pitch=0, roll=0
-     * BACK: yaw=180, pitch=0, roll=0
-     * LEFT: yaw=270, pitch=0, roll=0
-     * UP: yaw=0, pitch=90, roll=0 (手机仰头)
-     * DOWN: yaw=0, pitch=-90, roll=0 (手机低头)
+     * 核心算法：根据 yaw/pitch 判断当前朝向
+     * 六方向定义：
+     * FRONT：yaw=0°    水平朝前
+     * RIGHT：yaw=90°   向右转
+     * BACK：yaw=180°   向后转
+     * LEFT：yaw=270°   向左转
+     * UP：pitch=90°    手机朝上
+     * DOWN：pitch=-90° 手机朝下
+     *
+     * 偏差阈值15°：在范围内判定为已对准
      */
     private fun getCurrentDirection(): Pair<SixDirection, Boolean> {
-        // 角度偏差阈�? 15度以内认为对�?
         val threshold = 15f
 
-        // 判断上下方向 (pitch 决定)
+        // 优先判断上下方向（俯仰角 pitch）
         if (pitch > 45f) {
-            // 手机明显仰头 �?上方�?
             val aligned = abs(pitch - 90f) < threshold
             return Pair(SixDirection.UP, aligned)
         }
         if (pitch < -45f) {
-            // 手机明显低头 �?下方�?
             val aligned = abs(pitch + 90f) < threshold
             return Pair(SixDirection.DOWN, aligned)
         }
 
-        // 水平方向判断 (yaw 决定)
+        // 水平方向判断（偏航角 yaw）
         return when {
             yaw < 45f || yaw > 315f -> {
                 val aligned = abs(yaw % 360f) < threshold
@@ -160,7 +184,9 @@ class GyroHelper(private val context: Context) : SensorEventListener {
         }
     }
 
-    /** 获取当前角度信息字符串（调试用） */
+    /**
+     * 获取当前角度信息（用于调试显示）
+     */
     fun getAngleInfo(): String {
         return "yaw=%.1f pitch=%.1f roll=%.1f".format(yaw, pitch, roll)
     }
