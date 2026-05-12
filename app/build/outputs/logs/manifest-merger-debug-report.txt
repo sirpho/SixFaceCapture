@@ -1,0 +1,387 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\sirpho\.gradle\caches\transforms-3\4511921ba337c7d45ff50772995e02fa\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\sirpho\.gradle\caches\transforms-3\6e29a496f69d3f33dfbc0a9891d4e027\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sirpho\.gradle\caches\transforms-3\e680f6236f37723ef5d7c311aa240cbc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\c09f78b9feb2547808cb092dc73bf643\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\6c02d726e9e1b1a118350e3c33517844\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\25f49df4d5d2509e2ecfc430502c060e\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\sirpho\.gradle\caches\transforms-3\44c181ab8d4d9f59eadf705f23499ff8\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\sirpho\.gradle\caches\transforms-3\4d399f7a7d4e4100f3c70265d9e8460b\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\bb2ff097b8dd73ccd7dda3ab3a1bba2f\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\sirpho\.gradle\caches\transforms-3\9e516e52cd586224afdd8e7e28bea049\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\ecbbd85aa809bb4e81b2c0b5ceff99f5\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\0de4892a40b289742f247bffd4d5f172\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\e458740b606a621705e43f3b119f18ba\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\cec42f44714c63b7f7e557e84cff4b83\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9399fc18118888dec8420ada4f45880f\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\d095f60b26a7723c21b753956af4d35d\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\cce377f6cd2ac91d70247dfbe7dc78ad\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\e302b450540ca47ade5ebd6fd4553941\transformed\core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\3c123b29d9a773ddcbdc70010a8757e1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\bf00ff19af10ec24129bc4f8c87f8ce4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\fb71b0c6259b93265955e27b85122461\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\c4ed547a65d8592d0c5390adaf49824d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\e49dcf49d5b4ca0a933af934e150be63\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\525d8103c3b8fff3cd5903f5c4e5f77a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\c4b8be904144938c6015f7669da21549\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\d8602c8229186b947dbe52a75160fb60\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\563ba3b81bfdea33b73a8e3cf4ceb69a\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\00c39e021d2c32137391c1ba18f24f59\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\db82c08d9ab312cdd19fcb323b2342df\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [org.opencv:opencv:4.12.0] C:\Users\sirpho\.gradle\caches\transforms-3\c2fbf8a09fa02785e1287af36a85014c\transformed\opencv-4.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\sirpho\.gradle\caches\transforms-3\0b4412ac3dc637257420e697d0626b27\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\5639668f9bf683d16847a67e4290c381\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\677ac4d3a8f3668149182ee528b4859c\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\483b8107ab34d14d353afc1890704aac\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\5959fa9928af66d0421964b24056e6a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\b181c4aad15a70bc1152a1a8fb62e8fb\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\41d3b66c36a2a119ca047c6dda3772c7\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\052215464ab77e4acfe557bfc40370fc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\83a3e26351eebfabcc7bd332ab490a65\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\6a488d014aab41a172a508087eb4411a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\9ff1f961ba4c0640a03f6b36b288a8ee\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:6:5-84
+	android:required
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:6:58-81
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:7:19-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:9:5-10:38
+	android:maxSdkVersion
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:10:9-35
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:11:5-12:38
+	android:maxSdkVersion
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:18:5-55:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\sirpho\.gradle\caches\transforms-3\6e29a496f69d3f33dfbc0a9891d4e027\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\sirpho\.gradle\caches\transforms-3\6e29a496f69d3f33dfbc0a9891d4e027\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sirpho\.gradle\caches\transforms-3\e680f6236f37723ef5d7c311aa240cbc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sirpho\.gradle\caches\transforms-3\e680f6236f37723ef5d7c311aa240cbc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\5959fa9928af66d0421964b24056e6a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\5959fa9928af66d0421964b24056e6a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:21:9-41
+	tools:targetApi
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:25:9-29
+	android:largeHeap
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:24:9-33
+	android:icon
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:23:9-52
+activity#com.vrpanorama.app.ui.MainActivity
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:27:9-37:20
+	android:screenOrientation
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:30:13-49
+	android:exported
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:29:13-36
+	android:configChanges
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:31:13-59
+	android:theme
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:32:13-67
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:28:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.vrpanorama.app.ui.PreviewActivity
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:39:9-43:61
+	android:screenOrientation
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:41:13-49
+	android:parentActivityName
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:43:13-58
+	android:configChanges
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:40:13-47
+activity#com.vrpanorama.app.ui.StitchActivity
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:45:9-48:62
+	android:screenOrientation
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:47:13-49
+	android:configChanges
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:48:13-59
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:46:13-46
+activity#com.vrpanorama.app.ui.ExportActivity
+ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:50:9-53:62
+	android:screenOrientation
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:52:13-49
+	android:configChanges
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:53:13-59
+	android:name
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:51:13-46
+uses-sdk
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\sirpho\.gradle\caches\transforms-3\4511921ba337c7d45ff50772995e02fa\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\sirpho\.gradle\caches\transforms-3\4511921ba337c7d45ff50772995e02fa\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\sirpho\.gradle\caches\transforms-3\6e29a496f69d3f33dfbc0a9891d4e027\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\sirpho\.gradle\caches\transforms-3\6e29a496f69d3f33dfbc0a9891d4e027\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sirpho\.gradle\caches\transforms-3\e680f6236f37723ef5d7c311aa240cbc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\sirpho\.gradle\caches\transforms-3\e680f6236f37723ef5d7c311aa240cbc\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\c09f78b9feb2547808cb092dc73bf643\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\c09f78b9feb2547808cb092dc73bf643\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\6c02d726e9e1b1a118350e3c33517844\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\6c02d726e9e1b1a118350e3c33517844\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\25f49df4d5d2509e2ecfc430502c060e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\25f49df4d5d2509e2ecfc430502c060e\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\sirpho\.gradle\caches\transforms-3\44c181ab8d4d9f59eadf705f23499ff8\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\sirpho\.gradle\caches\transforms-3\44c181ab8d4d9f59eadf705f23499ff8\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\sirpho\.gradle\caches\transforms-3\4d399f7a7d4e4100f3c70265d9e8460b\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\sirpho\.gradle\caches\transforms-3\4d399f7a7d4e4100f3c70265d9e8460b\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\bb2ff097b8dd73ccd7dda3ab3a1bba2f\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\bb2ff097b8dd73ccd7dda3ab3a1bba2f\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\sirpho\.gradle\caches\transforms-3\9e516e52cd586224afdd8e7e28bea049\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\sirpho\.gradle\caches\transforms-3\9e516e52cd586224afdd8e7e28bea049\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\ecbbd85aa809bb4e81b2c0b5ceff99f5\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\ecbbd85aa809bb4e81b2c0b5ceff99f5\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\0de4892a40b289742f247bffd4d5f172\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\0de4892a40b289742f247bffd4d5f172\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\e458740b606a621705e43f3b119f18ba\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\e458740b606a621705e43f3b119f18ba\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\cec42f44714c63b7f7e557e84cff4b83\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\cec42f44714c63b7f7e557e84cff4b83\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9399fc18118888dec8420ada4f45880f\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9399fc18118888dec8420ada4f45880f\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\d095f60b26a7723c21b753956af4d35d\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\d095f60b26a7723c21b753956af4d35d\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\cce377f6cd2ac91d70247dfbe7dc78ad\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\cce377f6cd2ac91d70247dfbe7dc78ad\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\e302b450540ca47ade5ebd6fd4553941\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\e302b450540ca47ade5ebd6fd4553941\transformed\core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\3c123b29d9a773ddcbdc70010a8757e1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\3c123b29d9a773ddcbdc70010a8757e1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\bf00ff19af10ec24129bc4f8c87f8ce4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\bf00ff19af10ec24129bc4f8c87f8ce4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\fb71b0c6259b93265955e27b85122461\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\fb71b0c6259b93265955e27b85122461\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\c4ed547a65d8592d0c5390adaf49824d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\c4ed547a65d8592d0c5390adaf49824d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\e49dcf49d5b4ca0a933af934e150be63\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\e49dcf49d5b4ca0a933af934e150be63\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\525d8103c3b8fff3cd5903f5c4e5f77a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\525d8103c3b8fff3cd5903f5c4e5f77a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\c4b8be904144938c6015f7669da21549\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\c4b8be904144938c6015f7669da21549\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\d8602c8229186b947dbe52a75160fb60\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\sirpho\.gradle\caches\transforms-3\d8602c8229186b947dbe52a75160fb60\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\563ba3b81bfdea33b73a8e3cf4ceb69a\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\563ba3b81bfdea33b73a8e3cf4ceb69a\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\00c39e021d2c32137391c1ba18f24f59\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\00c39e021d2c32137391c1ba18f24f59\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\db82c08d9ab312cdd19fcb323b2342df\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\db82c08d9ab312cdd19fcb323b2342df\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [org.opencv:opencv:4.12.0] C:\Users\sirpho\.gradle\caches\transforms-3\c2fbf8a09fa02785e1287af36a85014c\transformed\opencv-4.12.0\AndroidManifest.xml:5:5-44
+MERGED from [org.opencv:opencv:4.12.0] C:\Users\sirpho\.gradle\caches\transforms-3\c2fbf8a09fa02785e1287af36a85014c\transformed\opencv-4.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\sirpho\.gradle\caches\transforms-3\0b4412ac3dc637257420e697d0626b27\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\sirpho\.gradle\caches\transforms-3\0b4412ac3dc637257420e697d0626b27\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\5639668f9bf683d16847a67e4290c381\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\5639668f9bf683d16847a67e4290c381\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\677ac4d3a8f3668149182ee528b4859c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\677ac4d3a8f3668149182ee528b4859c\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\483b8107ab34d14d353afc1890704aac\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\483b8107ab34d14d353afc1890704aac\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\5959fa9928af66d0421964b24056e6a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\5959fa9928af66d0421964b24056e6a8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\b181c4aad15a70bc1152a1a8fb62e8fb\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\b181c4aad15a70bc1152a1a8fb62e8fb\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\41d3b66c36a2a119ca047c6dda3772c7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\41d3b66c36a2a119ca047c6dda3772c7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\052215464ab77e4acfe557bfc40370fc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\052215464ab77e4acfe557bfc40370fc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\83a3e26351eebfabcc7bd332ab490a65\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\83a3e26351eebfabcc7bd332ab490a65\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\6a488d014aab41a172a508087eb4411a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\sirpho\.gradle\caches\transforms-3\6a488d014aab41a172a508087eb4411a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\9ff1f961ba4c0640a03f6b36b288a8ee\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\9ff1f961ba4c0640a03f6b36b288a8ee\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		ADDED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+		INJECTED from D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\sirpho\.gradle\caches\transforms-3\eb48de81fb742aaa90bcd5af283d9b8f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+permission#com.vrpanorama.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+uses-permission#com.vrpanorama.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF03DAC5</color>
+    <color name="bg_dark">#CC000000</color>
+    <color name="black">#FF000000</color>
+    <color name="crosshair_green">#CC00FF00</color>
+    <color name="crosshair_red">#CCFF0000</color>
+    <color name="direction_done">#FF4CAF50</color>
+    <color name="direction_pending">#FF9E9E9E</color>
+    <color name="primary">#FF2196F3</color>
+    <color name="primary_dark">#FF1976D2</color>
+    <color name="progress_bg">#FF424242</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">六面全景采集助手</string>
+    <string name="btn_export">>导出到相册</string>
+    <string name="btn_next">>下一个</string>
+    <string name="btn_reshoot">重拍</string>
+    <string name="btn_shoot">拍摄</string>
+    <string name="btn_stitch">>开始拼接</string>
+    <string name="cubemap_title">正在生成立方体贴图</string>
+    <string name="direction_back">>后</string>
+    <string name="direction_down">>下</string>
+    <string name="direction_front">>前</string>
+    <string name="direction_left">>左</string>
+    <string name="direction_right">>右</string>
+    <string name="direction_up">>上</string>
+    <string name="export_fail">导出失败，请重试</string>
+    <string name="export_success">>导出成功！已保存到相册</string>
+    <string name="permission_camera">>需要相机权限才能拍摄</string>
+    <string name="permission_location">需要位置权限才能记录GPS信息</string>
+    <string name="permission_storage">>需要存储权限才能保存</string>
+    <string name="stitch_fail">>拼接失败：图像纹理不足，请重新拍摄</string>
+    <string name="stitching_title">正在拼接全景图</string>
+    <style name="Theme.SixFaceCapture" parent="Theme.AppCompat.Light.NoActionBar"> 
+        <item name="colorPrimary">@color/primary</item> 
+        <item name="colorPrimaryDark">@color/primary_dark</item> 
+        <item name="colorAccent">@color/accent</item> 
+    </style>
+    <style name="Theme.SixFaceCapture.FullScreen" parent="Theme.SixFaceCapture"> 
+        <item name="android:windowFullscreen">true</item> 
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+// 项目 settings.gradle - 配置模块名称和仓库
+
+pluginManagement {
+ repositories {
+ google()
+ mavenCentral()
+ gradlePluginPortal()
+ }
+}
+
+dependencyResolutionManagement {
+ repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+ repositories {
+ google()
+ mavenCentral()
+ flatDir {
+ dirs 'app/libs'
+ }
+ }
+}
+
+rootProject.name = "SixFaceCapture"
+include ':app'

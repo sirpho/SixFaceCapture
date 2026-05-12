@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 拼接处理页：进度条+ 文字百分比-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:padding="32dp"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/tvStitchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stitching_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:progressTint="@color/primary"
+        android:progressBackgroundTint="@color/progress_bg" />
+
+    <TextView
+        android:id="@+id/tvProgressPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvStitchDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FFAAAAAA"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

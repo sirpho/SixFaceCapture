@@ -1,0 +1,196 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vrpanorama.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <uses-feature
+13-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:6:5-84
+14        android:name="android.hardware.camera"
+14-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:6:19-57
+15        android:required="true" />
+15-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:6:58-81
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:7:5-70
+16-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:7:19-67
+17
+18    <uses-permission
+18-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:9:5-10:38
+19        android:name="android.permission.READ_EXTERNAL_STORAGE"
+19-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:9:22-77
+20        android:maxSdkVersion="32" />
+20-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:10:9-35
+21    <uses-permission
+21-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:11:5-12:38
+22        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+22-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:11:22-78
+23        android:maxSdkVersion="29" />
+23-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:12:9-35
+24    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+24-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:13:5-76
+24-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:13:22-73
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:15:5-79
+25-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:15:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:16:5-81
+26-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:16:22-78
+27
+28    <permission
+28-->[androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+29        android:name="com.vrpanorama.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.vrpanorama.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:18:5-55:19
+35        android:allowBackup="true"
+35-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:19:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.10.1] C:\Users\sirpho\.gradle\caches\transforms-3\a3b57ac48270d25bea1c0a1b7f6346a0\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:20:9-43
+40        android:label="@string/app_name"
+40-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:21:9-41
+41        android:largeHeap="true"
+41-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:24:9-33
+42        android:supportsRtl="true"
+42-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:22:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.SixFaceCapture" >
+44-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:23:9-52
+45        <activity
+45-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:27:9-37:20
+46            android:name="com.vrpanorama.app.ui.MainActivity"
+46-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:28:13-44
+47            android:configChanges="orientation|screenSize"
+47-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:31:13-59
+48            android:exported="true"
+48-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:29:13-36
+49            android:screenOrientation="portrait"
+49-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:30:13-49
+50            android:theme="@style/Theme.SixFaceCapture.FullScreen" >
+50-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:32:13-67
+51            <intent-filter>
+51-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:33:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:34:17-69
+52-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:34:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:35:17-77
+54-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:35:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:39:9-43:61
+58            android:name="com.vrpanorama.app.ui.PreviewActivity"
+58-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:40:13-47
+59            android:configChanges="orientation|screenSize"
+59-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:42:13-59
+60            android:parentActivityName="com.vrpanorama.app.ui.MainActivity"
+60-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:43:13-58
+61            android:screenOrientation="portrait" />
+61-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:41:13-49
+62        <activity
+62-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:45:9-48:62
+63            android:name="com.vrpanorama.app.ui.StitchActivity"
+63-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:46:13-46
+64            android:configChanges="orientation|screenSize"
+64-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:48:13-59
+65            android:screenOrientation="portrait" />
+65-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:47:13-49
+66        <activity
+66-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:50:9-53:62
+67            android:name="com.vrpanorama.app.ui.ExportActivity"
+67-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:51:13-46
+68            android:configChanges="orientation|screenSize"
+68-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:53:13-59
+69            android:screenOrientation="portrait" />
+69-->D:\document\sirpho\VR_APP\SixFaceCapture\app\src\main\AndroidManifest.xml:52:13-49
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.vrpanorama.app.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\sirpho\.gradle\caches\transforms-3\32def3061cbc8cf6bf22d93fc99c20e7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\sirpho\.gradle\caches\transforms-3\9f5dd3d008ea2c366b432d877139d5dc\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+83                android:value="androidx.startup" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+84        </provider>
+85
+86        <receiver
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+87            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+88            android:directBootAware="false"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+89            android:enabled="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+90            android:exported="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+91            android:permission="android.permission.DUMP" >
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+93                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+96                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+99                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+102                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\sirpho\.gradle\caches\transforms-3\1ba20eb56cf21adb05d691da1b1e70ac\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+103            </intent-filter>
+104        </receiver>
+105    </application>
+106
+107</manifest>
